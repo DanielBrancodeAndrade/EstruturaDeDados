@@ -3,7 +3,7 @@ import java.utill.Scanner
 public class Vetor {
 public static void main(String[] args) {
  
- Scanner scanner = new Scanner(System.in)
+ Scanner scanner = new Scanner(System.in);
 
 int[] numeros= new  int [5];
 
