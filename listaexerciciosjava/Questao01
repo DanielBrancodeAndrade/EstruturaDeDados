@@ -1,6 +1,7 @@
+//Faça um programa em Java que leia um vetor de 5 numeros inteiros e mostreos
 import java.utill.Scanner;
 
-public class Vetor {
+public class Questao01 {
 public static void main(String[] args) {
  
  Scanner scanner = new Scanner(System.in);
