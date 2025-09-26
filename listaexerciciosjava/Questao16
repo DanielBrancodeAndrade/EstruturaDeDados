@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Questao16 {
+    public class Questao16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] contadores = new int[9]; // 9 faixas salariais
