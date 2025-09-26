@@ -1,4 +1,4 @@
-    public class Q1 {
+    public class QU1 {
     public static void main(String[] args) {
         int[] numeros = {10, 20, 30, 40, 50};
 
