@@ -1,1 +1,22 @@
+import java.util.Random;
+
+public class Questao24 {
+public static void main(String[] args) {
+        Random random = new Random();
+
+        int[] resultados = new int[100]; 
+        int[] contadores = new int[6];   
+
+        for (int i = 0; i < 100; i++) {
+            int valor = random.nextInt(6) + 1; // gera de 1 a 6
+            resultados[i] = valor;
+            contadores[valor - 1]++; // incrementa a face correspondente
+        }
+
+        System.out.println("Resultado dos 100 lançamentos:");
+        for (int i = 0; i < contadores.length; i++) {
+            System.out.printf("Face %d: %d vezes%n", i + 1, contadores[i]);
+        }
+    }
+}
 
